@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #E5E5E5;
     padding: 25px 0px;
 }
 
@@ -38,14 +38,16 @@ body {
 }
 
 .menu {
-    margin-left: 24px;
+    margin-left: 244px;
 }
 
 .menu ul {
     list-style: none;
     display: flex;
 }
-
+.menu-item {
+    margin-right: 115px;
+}
 .menu-item a {
     font-size: 15px;
     color: #030305;
@@ -55,12 +57,12 @@ body {
 .menu-item a:hover {
     border-bottom: 2px solid black;
 }
-
+/*section  hero*/
 .main {
-    background-image: url(../img/background.png);
+    background-image: url("../img/background.png");
     background-position: center;
     background-size: cover;
-    padding: 184px 154px 0;
+    padding: 104px 0 154px 0;
 }
 
 .main-info {
@@ -76,7 +78,6 @@ body {
 }
 
 .main-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 130%;
     color: #030305;
@@ -99,6 +100,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #ffffff;
+    transition: background-color .5s;
 }
 
 .btn:hover {
@@ -116,7 +118,7 @@ body {
     font-size: 60px;
     line-height: 70px;
 }
-
+/* описание всех карточек и правильное расположение*/
 .car-items {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +141,6 @@ body {
     font-size: 24px;
     line-height: 150%;
     letter-spacing: 0.02em;
-
     padding: 15px 0 17px 0;
 }
 
@@ -160,11 +161,12 @@ body {
 }
 
 .car-item-action {
-    top: 13px;
+    margin-top: 13px;
 }
 
 .car-item-action .btn {
-    width: 384px;
+    width: 100%;
+    /* width: 384px; */
     padding: 15px;
     height: 54px;
 }
@@ -173,12 +175,12 @@ body {
     font-weight: bold;
 }
 
-/*------section footer*/
+/*------section price-----*/
 .price {
     overflow: hidden;
 }
 
-.price.container {
+.price .container {
     position: relative;
     padding-bottom: 121px;
 }
@@ -213,7 +215,7 @@ body {
 }
 
 .price-input::placeholder {
-    color: #5d5d5f;
+    color: #5D5D5F;
 }
 
 .price .btn {
@@ -225,7 +227,7 @@ body {
     bottom: 0;
     left: 401px;
 }
-
+/* ----section Footer---*/
 .footer {
     border-top: 1px solid #e5e5e5;
     padding: 25px 0px;
