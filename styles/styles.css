@@ -24,8 +24,11 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  min-width: 320px;
+  max-width: 767px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header .container {
@@ -59,7 +62,7 @@ body {
 }
 /*section  hero*/
 .main {
-  background-image: url("../img/background.png");
+  background-image: url("../img/background.webp");
   background-position: center;
   background-size: cover;
   padding: 104px 0 154px 0;
@@ -259,10 +262,9 @@ body {
   background-color: transparent;
   color: #030305;
   border: 2px solid#030305;
-color:#030305;
-    border: 2px solid #030305;
-    transition: color 300ms ease-in-out;
-
+  color: #030305;
+  border: 2px solid #030305;
+  transition: color 300ms ease-in-out;
 }
 .scroll-btn:hover {
   color: #ffffff;
